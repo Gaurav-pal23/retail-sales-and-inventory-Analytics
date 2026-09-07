@@ -1,0 +1,22 @@
+import pandas as pd
+
+# Create branch data
+branches_data = [
+    (1, 'London - Central', 'London'),
+    (2, 'London - East', 'London'),
+    (3, 'London - West', 'London'),
+    (4, 'Manchester - North', 'Manchester'),
+    (5, 'Manchester - South', 'Manchester'),
+    (6, 'Birmingham - City Centre', 'Birmingham'),
+    (7, 'Leeds - East', 'Leeds'),
+    (8, 'Leeds - West', 'Leeds'),
+    (9, 'Liverpool - Central', 'Liverpool'),
+    (10, 'Glasgow - Downtown', 'Glasgow'),
+]
+
+# Create DataFrame
+df_branches = pd.DataFrame(branches_data, columns=['branch_id', 'branch_name', 'region'])
+
+# Save to CSV
+df_branches.to_csv("branches.csv", index=False)
+print("✅ branches.csv created successfully.")
