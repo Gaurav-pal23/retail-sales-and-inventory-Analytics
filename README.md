@@ -58,6 +58,7 @@ Product
 Product Category
 Region/Location
 Sales Channel
+
 🛠️ Tools & Technologies
 
 The project was developed using:
@@ -125,14 +126,9 @@ Which categories need improvement?
 
 These insights can help businesses improve sales strategies, inventory planning, and operational decision-making.
 
-📷 Dashboard Preview
-
 Add screenshots of your dashboard here.
 
 Example:
-
-![Dashboard Preview](images/dashboard.png)
-
 
 You can create an images folder in the repository and upload your dashboard screenshots there.
 
@@ -174,7 +170,7 @@ Adding customer segmentation.
 Integrating live databases instead of static files.
 👨‍💻 Author
 
-Your Name
+**Gaurav pal**
 
 📌 Data Analytics | Business Intelligence | Power BI
 
